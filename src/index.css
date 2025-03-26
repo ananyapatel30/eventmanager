@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Satisfy&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Body Background */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f9c5d1, #fddde6); /* Soft Pink Gradient */
+  margin: 0;
+}
+
+/* Navbar Styling */
+nav {
+  font-family: 'Satisfy', cursive;
+}
+
+/* Event Cards - Darker Shade */
+.event-card {
+  background: #f0f0f0; /* Light Gray for a darker contrast */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Increased shadow for depth */
+  transition: transform 0.3s ease-in-out;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+}
+
+/* Buttons */
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  filter: brightness(1.2);
+}
+
+/* View Event Button - Blue */
+.view-event-btn {
+  background-color: #4169E1; /* Royal Blue */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.view-event-btn:hover {
+  background-color: #081a4f; /* Darker Blue */
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #e74c3c; /* Red */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b; /* Darker Red */
+}
+
+/* Search Button */
+.search-btn {
+  background-color: #4169E1; /* Royal Blue */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #27408B; /* Darker Blue */
+}
+
+/* Notification Icon */
+.notification-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.notification-icon:hover {
+  transform: rotate(10deg);
+}
